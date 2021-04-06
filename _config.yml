@@ -1,0 +1,166 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en"
+title: Didya Eat 
+email: didyaeat.ny@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  .
+
+minimal_mistakes_skin: "default"
+search: true
+logo: /assets/images/logo.png
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+#paginate: 20 # amount of posts to show
+#paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+search: false
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-186213597-1"
+#    anonymize_ip: false # default
+
+og_image: /assets/images/logo.png
+
+author:
+  name   : "Mike Fabulosa"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "I'm a wee bit out of my mind. Been blasting Diary of a Madman and Crazy Train into my skull since the early '80s.
+Been finding ways to deal with Bi-Polar Disorder and ADHD all my life. The pandemic introduced new challenges. That is what
+lead me to start building pedals. A way to immerse myself into so many different creative activities. This is where I share
+my creations and  the stories, successes, failures and what I have learned with others. Feel free to browse around. Let me 
+know what I got wrong or where I might improve. Most of all I just hope you enjoy what I have created and can maybe gain 
+some new insights."
+  email: didyaeatny@gmail.com
+  links:
+    - label: "Home"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.didyaeatny.com"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/didyaeatny/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/pandemicpedals/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCITlXPrcvewDQYxEgJWOZTA"
+
+footer:
+  links:
+    - label: "Home"
+      icon: "fas fa-fw fa-home"
+      url: "/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/PachydermP"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/didyaeatny/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/pandemicpedals/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCITlXPrcvewDQYxEgJWOZTA"
+
+
+excerpt: "More to Come [...]"
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Pandemic Pedal Collection 2020-09-13"
+
+collections_dir: /collections/
+
+collections:
+  blog:
+    output: true
+    title: Blog
+    position: 3
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: archive
+      show_date: true
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      #classes: wide
+      show_date: true
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+

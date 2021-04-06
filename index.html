@@ -1,0 +1,93 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: splash
+title: Didya Eat
+excerpt: "I'm a wee bit out of my mind. Been blasting Diary of a Madman and Crazy Train into my skull since the early '80s.
+Been finding ways to deal with Bi-Polar Disorder and ADHD all my life. The pandemic introduced new challenges. That is what
+lead me to start building pedals. A way to immerse myself into so many different creative activities. This is where I share
+my creations and  the stories, successes, failures and what I have learned with others. Feel free to browse around. Let me 
+know what I got wrong or where I might improve. Most of all I just hope you enjoy what I have created and can maybe gain 
+some new insights."
+date: 2021-04-05
+last_modified_at: 2021-04-05
+classes: wide
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Pandemic Pedal Collection 2020-09-13"
+  actions:
+    - label: "Pedals"
+      url: "/#pedals"
+    - label: "Tutorials"
+      url: "/#tutorials"
+    - label: "Blog"
+      url: "/#blog"
+    - label: "Guitars"
+      url: "/#guitars"
+
+classes:
+    - landing
+    - dark-theme
+---
+
+{% assign collections = site.collections | sort: 'position' %}
+
+{% for collection in collections %}
+  {% unless collection.output == false or collection.label == "posts" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 class="archive__title" id="{{ collection.label }}">
+        <a href="/{{ collection.label }}/" class="archive__title">{{ collection.title }}</a>
+      </h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__wrapper">
+      {% assign sorton = 'title' %}
+      {% if label == "tutorials" %}
+        {% assign sorton = 'date' %}
+      {% endif %}
+      {% assign entries = collection.docs | sort: sorton | reverse %}
+
+      {% for f in entries limit: 4 %}
+        <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+          <div class="archive__item">
+            {% if f.header.teaser %}
+              <div class="archive__item-teaser">
+                <a href="{{ f.url | relative_url }}"">
+                  <img src="{{ f.header.teaser }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+                </a>
+                {% if f.image_caption %}
+                  <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+            <div class="archive__item-body">
+              {% if f.title %}
+              <a href="{{ f.url | relative_url }}" class="archive__subtitle">
+                <h2 class="archive__subtitle">{{ f.title }}</h2>
+              </a>
+              {% endif %}
+              {% if f.compare-to %}
+                <h2 class="archive__item-excerpt">Compare to {{ f.compare-to }}</h2>
+              {% endif %}
+              {% if f.excerpt %}
+                <div class="archive__item-excerpt">
+                  {{ f.excerpt | markdownify }}
+                </div>
+              {% endif %}
+      
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+        
+    
+    </div>
+  {% endunless %}
+{% endfor %}
+
+
