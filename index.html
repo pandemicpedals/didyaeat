@@ -38,7 +38,7 @@ classes:
       {% endif %}
       {% assign entries = collection.docs | sort: sorton | reverse %}
 
-      {% for f in entries limit: 4 %}
+      {% for f in entries %}
         <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
           <div class="archive__item">
             {% if f.header.teaser %}
