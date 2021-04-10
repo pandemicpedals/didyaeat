@@ -1,10 +1,10 @@
 vince:
   name   : "Vince, Grandpa, Pop"
-  avatar : "/assets/images/bio-vince.jpg"
+  avatar : "/assets/images/pop.jpg"
   bio    : ""
   email: didyaeatny@gmail.com
 jane:
   name   : "Jane, Grandma"
-  avatar : "/assets/images/bio-jane.jpg"
+  avatar : "/assets/images/jane.jpg"
   bio    : ""
   email: didyaeatny@gmail.com

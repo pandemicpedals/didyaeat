@@ -7,7 +7,7 @@ toc_icon: "cog"
 # layout: single
 
 title: "Easter Bread"
-#excerpt: ""
+excerpt: "One of my favorites from Grandma Anna Palma. My mother made loaves every year for my children."
 date: 2021-04-03
 modified: 2021-04-03
 
@@ -25,7 +25,7 @@ I learned to make this easter bread from my grandmother more than 50 years's ago
 
 My mother made these for year's for each of my boys. She shaped them into bunnies holding eggs. I  braid mine. I hope you enjoy the video. My grandson Mike helped me record it and kept me on track. 
 
-## How its Made
+## Video
 
 {% include video id="aKuE3t_uw_Y" provider="youtube" %}
 

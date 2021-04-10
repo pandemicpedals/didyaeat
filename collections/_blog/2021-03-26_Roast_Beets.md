@@ -17,9 +17,9 @@ header:
   overlay_filter: 0.8
   actions:
     - label: "Recipe"
-      url: "/blog/2021-04-03_Marinara_Sauce/#recipe"
+      url: "/blog/2021-03-26_Roast_Beets/#recipe"
     - label: "Video"
-      url: "/blog/2021-04-03_Marinara_Sauce/#video"
+      url: "/blog/2021-03-26_Roast_Beets/#video"
 
 author: vince
 
