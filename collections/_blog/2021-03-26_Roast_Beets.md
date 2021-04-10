@@ -21,6 +21,7 @@ header:
     - label: "Video"
       url: "/blog/2021-03-26_Roast_Beets/#video"
 
+author_profile: true
 author: vince
 
 ---

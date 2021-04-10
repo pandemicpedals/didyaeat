@@ -21,6 +21,7 @@ header:
     - label: "Video"
       url: "/blog/2021-04-03_Marinara_Sauce/#video"
 
+author_profile: true
 author: vince
 
 ---
