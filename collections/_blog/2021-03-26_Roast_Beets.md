@@ -6,14 +6,14 @@ toc_icon: "cog"
 
 # layout: single
 
-title: "Roasted Beets with Balsamic Vinegar"
-excerpt: "A beets recipe worth trying, even if you hated them as a kid."
+title: "Roasted Beets"
+excerpt: "with Balsamic Vinegar"
 date: 2021-03-26
-modified: 2021-03-26
+last_modified_at: 2021-03-26
 
 header:
-  teaser: /assets/images/header.jpg
-  overlay_image: /assets/images/header.jpg
+  teaser: /assets/images/blog/2021-03-26_Roasted_Beets.jpg
+  overlay_image: /assets/images/blog/2021-03-26_Roasted_Beets.jpg
   overlay_filter: 0.8
   actions:
     - label: "Recipe"
@@ -31,11 +31,11 @@ vegetable. Beets are very healthy (Google nutrition) for you and taste good too.
 beet salad, which I will do a video of later. But we love roasted beets. After eating roasted beets for
 years with basil and oregano added one day I tried pouring some 23 year old Denissimo Balsamic
 Vinegar on them which created an even sweeter taste. So even if you have never tried beets give them a
-chance you might be surprised of the delicious taste and flavor
+chance you might be surprised of the delicious taste and flavor.
 
 ## Video
 
-{% include video id="JQcDJ2vDCrE" provider="youtube" %}
+{% include video id="7OwzqRSPPgE" provider="youtube" %}
 
 ## Recipe
 
@@ -69,7 +69,7 @@ or both
 6. Place in a roasting pan covered with aluminum foil (for ease of cleaning) that has a thin cover of
 oil to the pan either with a spray can or oil spread thinly with a paper towel. Remember the
 beets are covered with oil so the pan only needs a thin film
-7. Bake at 375 degrees for 30 minutes
+7. Bake at 375&deg; F for 30 minutes
 8. After 30 minutes check tenderness with a fork. We like them a little crunchie. But cook to your
 own desired tenderness.
 

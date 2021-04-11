@@ -7,9 +7,9 @@ toc_icon: "cog"
 # layout: single
 
 title: "Marinara Sauce"
-excerpt: "A healthy vegan base for your Italian cooking. Mangia!"
+#excerpt: "A healthy vegan base for your Italian cooking. Mangia!"
 date: 2021-04-04
-modified: 2021-04-04
+last_modified_at: 2021-04-04
 
 header:
   teaser: /assets/images/blog/2021-04-03_Marinara_Sauce.jpg

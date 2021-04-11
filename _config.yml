@@ -19,9 +19,9 @@ email: didyaeat.ny@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   .
 
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "dirt"
 search: true
-logo: /assets/images/logo.jpg
+logo: /assets/images/logo.png
 
 # Build settings
 markdown: kramdown
@@ -64,28 +64,23 @@ analytics:
     tracking_id: "G-QYLVM2P09P"
 #    anonymize_ip: false # default
 
-og_image: /assets/images/logo.jpg
+og_image: /assets/images/logo.png
 
 author:
-  name   : "Mike Fabulosa"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a wee bit out of my mind. Been blasting Diary of a Madman and Crazy Train into my skull since the early '80s.
-Been finding ways to deal with Bi-Polar Disorder and ADHD all my life. The pandemic introduced new challenges. That is what
-lead me to start building pedals. A way to immerse myself into so many different creative activities. This is where I share
-my creations and  the stories, successes, failures and what I have learned with others. Feel free to browse around. Let me 
-know what I got wrong or where I might improve. Most of all I just hope you enjoy what I have created and can maybe gain 
-some new insights."
+  name   : "Vince"
+  avatar : "/assets/images/pop.jpg"
+  bio    : ""
   email: didyaeatny@gmail.com
   links:
     - label: "Home"
       icon: "fas fa-fw fa-link"
-      url: "https://www.didyaeatny.com"
+      url: "/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/didyaeatny/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/pandemicpedals/"
+      url: "https://instagram.com/didyaeatny/"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCITlXPrcvewDQYxEgJWOZTA"
@@ -95,15 +90,12 @@ footer:
     - label: "Home"
       icon: "fas fa-fw fa-home"
       url: "/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/PachydermP"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/didyaeatny/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/pandemicpedals/"
+      url: "https://instagram.com/didyaeatny/"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCITlXPrcvewDQYxEgJWOZTA"
@@ -120,7 +112,7 @@ collections_dir: /collections/
 collections:
   blog:
     output: true
-    title: Blog
+    title: Recipes
     position: 3
 
 defaults:

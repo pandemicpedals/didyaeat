@@ -9,17 +9,17 @@ toc_icon: "cog"
 title: "Whole Grain Pancakes"
 excerpt: "(Whole Wheat Pastry Flour and Wheat Germ) with Flax Seeds and Hemp Hearts"
 date: 2021-03-26
-modified: 2021-03-26
+last_modified_at: 2021-03-26
 
 header:
-  teaser: /assets/images/header.jpg
-  overlay_image: /assets/images/header.jpg
+  teaser: /assets/images/blog/2021-03-28_Whole_Grain_Pancakes.jpg
+  overlay_image: /assets/images/blog/2021-03-28_Whole_Grain_Pancakes.jpg
   overlay_filter: 0.8
   actions:
     - label: "Recipe"
-      url: "/blog/2021-04-03_Marinara_Sauce/#recipe"
+      url: "/blog/2021-03-28_Whole_Grain_Pancakes/#recipe"
     - label: "Video"
-      url: "/blog/2021-04-03_Marinara_Sauce/#video"
+      url: "/blog/2021-03-28_Whole_Grain_Pancakes/#video"
 
 author_profile: true
 author: vince
@@ -36,7 +36,7 @@ omega-3 fatty acids.
 
 ## Video
 
-{% include video id="yR4iv1QjwgI" provider="youtube" %}
+{% include video id="zLanRgtod1M" provider="youtube" %}
 
 ## Recipe 
 
@@ -78,7 +78,7 @@ the &quot;as is&quot; recipe and make changes as you create your own taste!
 1. With a whisk mix the dry ingredients into a 4 cup measuring bowl
 2. Mix the wet ingredients into an 8 cup measuring bowl
 3. Add the dry to the wet and mix to combine
-4. Set the temperature on the griddle to 350 degrees
+4. Set the temperature on the griddle to 350 &deg; F
 5. When at temperature, spray the griddle with canola oil
 6. Using a 1/3 measuring cup, scoop out the batter and add to the grill using a spoon to get all
 of the batter out of the cup. It will make six pancakes. If after 6 scoops there is
@@ -91,10 +91,3 @@ because they are great right out of the refrigerator cold as a snack. You can ad
 Nutella Hazelnut Spread or jam and eat. Or freeze in a baggy separated by was paper after they cool
 down. When you want pancakes again take them out of the freezer and pop right in the toaster and
 you have pancakes again.
-
-
-0:00 Whole Grain Pancakes
-3:35 Pop uses 2 tbsp. of each
-6:55 Pop fill the measuring cup with too much batter
-7:28 pop scrapped another 1/2 of a pancake out of the bowl
-10:20 Try using Whole Wheat Pastry flour as a substitute for white flour
