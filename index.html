@@ -5,26 +5,34 @@
 
 layout: splash
 title: Didya Eat
-excerpt: "My wife and I have been cooking for over 50 years. It is one of our passions. We love to cook for friends, 
-family, neighbors, and people in need. My son got us a camera for Christmas of 2019. He says video is the way people
-teach and share. Two things we love to do. So, we hope you learn a few things and enjoy our cooking."
+
 date: 2021-04-05
 last_modified_at: 2021-04-05
+
 classes: wide
+
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: ""
+  overlay_filter: 0.5
 
-classes:
-    - landing
-    - dark-theme
 ---
 
+<p>
+Jane & Vince are both 3rd generation Italians who grow up in Grandma’ and Mom’s kitchen in Yonkers and the Bronx. Both started cooking as children because they loved to eat and be with family. Sunday was almost always spent making handmade pasta like raviolis, manicotti, fettuccini and gnocchi with a large marinara sauce or meat sauce containing meatballs, sausage, beef or veal or pork bracolis, pork ends and ribs. Of course there were delicious fresh cakes, pies and Italian cookies which were all handmade.
+</p>
+<p>
+Jane & Vince married in August 1967 and started a family and continued the family traditions of cooking traditional Italian fare all from scratch and with all family recipes. We have three sons in their thirties and 5 grandchildren and they all cook from scratch. Christmas 1967 Jane and Vince hosted the traditional Christmas feast for the entire family and continued to have almost every holiday at there home for over 35 years. Our family was one of the few that the men cooked and the women visited. Even though the women were great cooks they had the holidays off.
+</p>
+<p>
+In 1980’s Jane & Vince started a catering business called “Didyaeat” and a Gourmet Cooking Club as a way to develop interest in cooking and to teach others, including husbands. The name “Didyaeat” comes from the Bronx where Vince lived in an Irish/Jewish neighborhood called Kingsbridge/Riverdale. Whenever it was meal time Vince would ask his friends “Hey Didyaeat?” If they said no they were invited home. Most would come to eat even if they had supper. The Gourmet Cooking Club was started because as friends ate at our home they would always say, “I could never cook like this” and we would say, “It’s easy we will teach you as long as you come as a couple”.
+</p>
+<p>
+So if you would like to become part of the family, learn to cook Italian and American food be it a feast or quick and healthy 30 minutes peasant meals come take a class.
+</p>
 {% assign collections = site.collections | sort: 'position' %}
 
 {% for collection in collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
+  {% unless collection.output == false or collection.label == "posts" or collection.position < 0 %}
     {% capture label %}{{ collection.label }}{% endcapture %}
     {% if label != written_label %}
       <h2 class="archive__title" id="{{ collection.label }}">
@@ -34,7 +42,7 @@ classes:
     {% endif %}
 
     <div class="feature__wrapper">
-      {% assign entries = collection.docs | sort: 'date' | reverse %}
+      {% assign entries = collection.docs | sort: 'date' | reverse | limit:6 %}
 
       {% for f in entries %}
         <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">

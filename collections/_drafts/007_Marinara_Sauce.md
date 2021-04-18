@@ -57,7 +57,7 @@ process should be fun and always get the kids involved too.
 ## Recipe
 
 Always read the Ingredients and Instructions TWICE!
-{: .notice--info }
+{: .notice--success }
 
 **PREPARATION**: 15 minutes<br>
 **COOK TIME**: 30 minutes<br>
@@ -107,8 +107,7 @@ learn and develop you own style and taste.
 
 ## A Note from Little Vinny
 
-I've cooked this recipe for as long as I can remember with my parents. From big family gathering to having it 
-cooking while we watched the Giants on TV on Sundays. It was the easiest most cost effective way to eat good 
+I've cooked this recipe for as long as I can remember with my parents. From big family gathering to having it cooking while we watched the Giants on TV on Sundays. It was the easiest most cost effective way to eat good 
 when I got out on my own. And it was an easy way to impress with my cooking skills. It is also a great base 
 for making other favorites: meatballs, hot italian sausage, and braciole. I am sure Dad (Pop) will get to these 
 recipes as well. Enjoy the food, and as my Grandfather used to say, "Mangia, mangia!".

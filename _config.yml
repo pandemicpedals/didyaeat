@@ -110,10 +110,18 @@ header:
 collections_dir: /collections/
 
 collections:
-  blog:
+  recipes:
     output: true
     title: Recipes
-    position: 3
+    position: 1
+  blog:
+    output: true
+    title: Blog
+    position: 2
+  drafts:
+    output: true
+    title: Drafts
+    position: -1
 
 defaults:
   # _posts
@@ -132,6 +140,32 @@ defaults:
   - scope:
       path: ""
       type: blog
+    values:
+      layout: single
+      #classes: wide
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      #classes: wide
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
     values:
       layout: single
       #classes: wide

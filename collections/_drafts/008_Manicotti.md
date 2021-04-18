@@ -57,7 +57,7 @@ to heat.
 ## Recipe
 
 Always read the ingredients and preparation **TWICE** before you start!
-{: .notice--warning }
+{: .notice--success }
 
 This is a double recipe because they are great leftover for the next few days or frozen to be reheated
 weeks later.
