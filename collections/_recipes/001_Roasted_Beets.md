@@ -7,7 +7,7 @@ toc_icon: "cog"
 # layout: single
 
 title: "Roasted Beets"
-excerpt: "with Denissimo Balsamic Vinegar"
+tagline: "with Denissimo Balsamic Vinegar"
 episode: 001
 
 date: 2021-03-26

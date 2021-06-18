@@ -15,7 +15,7 @@ classes: wide
 
 author_profile: false
 
-sort_by_: last_modified_at
+sort_by_: episode
 sort_order: reverse
 
 

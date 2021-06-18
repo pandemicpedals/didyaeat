@@ -7,7 +7,7 @@ toc_icon: "cog"
 # layout: single
 
 title: "Whole Grain Pancakes"
-excerpt: "(Whole Wheat Pastry Flour and Wheat Germ) with Flax Seeds and Hemp Hearts"
+tagline: "(Whole Wheat Pastry Flour and Wheat Germ) with Flax Seeds and Hemp Hearts"
 episode: 002
 
 date: 2021-03-26

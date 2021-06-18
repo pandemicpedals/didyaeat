@@ -7,7 +7,7 @@ toc_icon: "cog"
 # layout: single
 
 title: "Pork & Sweet Cherry Peppers"
-excerpt: "A simple delicious 2 ingredient recipe. Mangia!"
+tagline: "A simple delicious 2 ingredient recipe. Mangia!"
 episode: 003
 
 date: 2021-04-01

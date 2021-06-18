@@ -6,20 +6,23 @@ toc_icon: "cog"
 
 # layout: single
 
-title: "No Knead Bread"
-#excerpt: ""
-date: 2021-04-04
-modified: 2021-04-04
+title: "No Knead Italian Bread"
+tagline: "An easy King Authur Flour Recipe"
+excerpt: This is a “FOOLPROOF” Italian Bread (NO KNEAD) recipe that will wow you, your family and friends. You can find it on the King Arthur website 3 pages long and on other websites. I have been making it for decades.
+episode: 006
+
+date: 2021-04-05
+modified: 2021-04-05
 
 header:
-  teaser: /assets/images/recipes/2021-04-04_No-Knead-Bread.jpg
-  overlay_image: /assets/images/recipes/2021-04-04_No-Knead-Bread.jpg
+  teaser: /assets/images/recipes/006.jpg
+  overlay_image: /assets/images/recipes/006.jpg
   overlay_filter: 0.5
   actions:
     - label: "Recipe"
-      url: "/recipes/2021-04-04_No-Knead-Bread/#recipe"
+      url: "/recipes/006_No_Knead_Bread/#recipe"
     - label: "Video"
-      url: "/recipes/2021-04-04_No-Knead-Bread/#video"
+      url: "/recipes/006_No_Knead_Bread/#video"
  
 author_profile: true
 author: vince
@@ -33,17 +36,17 @@ This is a “FOOLPROOF” Italian Bread (NO KNEAD) recipe that will wow you, you
 
 ## Video
 
-{% include video id="1flmTPG0RwY" provider="youtube" %}
+{% include video id="l5bWQviIlgo" provider="youtube" %}
 
 ## Recipe
 
 Always read the ingredients and preparation instructions TWICE before you start!
-{: .notice--info }
+{: .notice--success }
 
 **PREPARATION**: 1 hour & 30 minutes, 15 minutes to make dough, 1 hour and 15 minutes to shape loaf, let rise and place in oven<br>
 **COOK TIME**: 40 - 45 minutes<br>
 **SERVINGS**: 10 hungry people<br>
-**EPISODE**: 012
+**EPISODE**: 006
 
 ### Ingredients
 
@@ -65,7 +68,7 @@ Always read the ingredients and preparation instructions TWICE before you start!
  Your Italian Bread dough is complete in about 15 minutes. The dough can stay in the refrigerator for up to 7 days. They say the longer it stays in the refrigerator the more it will taste like sourdough bread. 
 
 In our house the dough never lasts more than 2 days so I have not proven that theory!
-{: .notice--success }
+{: .notice }
  
 ### Preparation: Italian Bread
 

@@ -7,52 +7,38 @@ toc_icon: "cog"
 # layout: single
 
 title: "Manicotti"
-#excerpt: "Cheese Filled"
-date: 2021-04-03
-last_modified_at: 2021-04-03
+tagline: This was "little" Viny's favorite as a kid.
+episode: 008
+
+date: 2021-04-07
+last_modified_at: 2021-04-07
 
 header:
-  teaser: /assets/images/blog/2021-04-03_Manicotti.jpg
-  overlay_image: /assets/images/blog/2021-04-03_Manicotti.jpg
+  teaser: /assets/images/recipes/008.jpg
+  overlay_image: /assets/images/recipes/008.jpg
   overlay_filter: 0.5
   actions:
     - label: "Recipe"
-      url: "/blog/2021-04-03_Manicotti/#recipe"
+      url: "/recipes/008_Manicotti/#recipe"
     - label: "Video"
-      url: "/blog/2021-04-03_Manicotti/#video"
+      url: "/recipes/008_Manicotti/#video"
 
 author_profile: true
 author: vince
 
 ---
 
-I met Jane in September of 1965. I enjoyed going to Jane’s house to help/watch Jane’s Mom, Antoinette,
-make homemade Manicotti, Raviolis and different flavored Fettuccini. They are not that difficult to
-make but maybe that is because we have been making them for decades. Don’t fear, because the recipe
-is straight forward, does not take that long to prepare and the family can help! We will get the other
-pasta recipes on the DidyaEatNY website as soon as possible.
+I met Jane in September of 1965. I enjoyed going to Jane’s house to help/watch Jane’s Mom, Antoinette, make homemade Manicotti, Raviolis and different flavored Fettuccini. They are not that difficult to make but maybe that is because we have been making them for decades. Don’t fear, because the recipe is straight forward, does not take that long to prepare and the family can help! We will get the other pasta recipes on the DidyaEatNY website as soon as possible.
 
-In 2015 we made 420 manicotti for our local church in Arizona with just 2 inexperienced helpers. They
-have a 4 foot grill and Jane was able to make 10 manicotti shells at a time. One helper made a double
-batter recipe to keep Jane supplied with batter. Another helper took the cooked shells and lined them
-on covered tables to be filled and I made the Manicotti filling and cut the mozzarella sticks. 
+In 2015 we made 420 manicotti for our local church in Arizona with just 2 inexperienced helpers. They have a 4 foot grill and Jane was able to make 10 manicotti shells at a time. One helper made a double batter recipe to keep Jane supplied with batter. Another helper took the cooked shells and lined them on covered tables to be filled and I made the Manicotti filling and cut the mozzarella sticks. 
 
-When all the
-shells were made and lined up on 8 - 6 foot tables Jane filled each shell and rolled them and we filled
-sauced hotel pans with the finished manicotti. We sauced the top of the pans with Marinara sauce,
-Pecorino Romano Cheese and fresh chopped parsley. We covered the 14 trays and put them in the
-cooler. We also made 200 meatballs and 200 Italian sausages. 
+When all the shells were made and lined up on 8 - 6 foot tables Jane filled each shell and rolled them and we filled sauced hotel pans with the finished manicotti. We sauced the top of the pans with Marinara sauce, Pecorino Romano Cheese and fresh chopped parsley. We covered the 14 trays and put them in the cooler. We also made 200 meatballs and 200 Italian sausages. 
 
-Father only charges $3.00 per person
-because he is not trying to make money but saying thank you to the parishioners. Some of the patrons
-asked if we do this once a month and we laughed and said NO! I was 70 then and Jane was 68 and we
-were pooped! We have also made them for the soup kitchen in Middletown NY and for all occasions. It
-is a great meal that can be prepared ahead of time and you can just pop them in the oven the next day
-to heat.
+Father only charges $3.00 per person because he is not trying to make money but saying thank you to the parishioners. Some of the patrons asked if we do this once a month and we laughed and said NO! I was 70 then and Jane was 68 and we were pooped! We have also made them for the soup kitchen in Middletown NY and for all occasions. It is a great meal that can be prepared ahead of time and you can just pop them in the oven the next day to heat.
 
 ## Video
 
-{% include video id="CyMXguTi9pE" provider="youtube" %}
+{% include video id="T2fh8gX4n9E" provider="youtube" %}
 
 ## Recipe
 

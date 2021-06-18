@@ -7,7 +7,7 @@ toc_icon: "cog"
 # layout: single
 
 title: "Easter Bread"
-excerpt: "One of my favorites from Grandma Anna Palma. My mother made loaves every year for my children."
+tagline: "One of my favorites from Grandma Anna Palma. My mother made loaves every year for my children."
 episode: 004
 
 date: 2021-04-03

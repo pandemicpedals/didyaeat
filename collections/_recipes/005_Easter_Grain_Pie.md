@@ -7,11 +7,11 @@ toc_icon: "cog"
 # layout: single
 
 title: "Easter Grain Pie"
-excerpt: "In simple terms it is a ricotta cheesecake with wheat berries."
+tagline: "In simple terms it is a ricotta cheesecake with wheat berries."
 episode: 005
 
-date: 2021-04-03
-modified: 2021-04-03
+date: 2021-04-04
+modified: 2021-04-04
 
 header:
   teaser: /assets/images/recipes/005.jpg

@@ -42,9 +42,9 @@ So if you would like to become part of the family, learn to cook Italian and Ame
     {% endif %}
 
     <div class="feature__wrapper">
-      {% assign entries = collection.docs | sort: 'date' | reverse | limit:6 %}
+      {% assign entries = collection.docs | sort: 'date' | reverse %}
 
-      {% for f in entries %}
+      {% for f in entries limit: 6 %}
         <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
           <div class="archive__item">
             {% if f.header.teaser %}
