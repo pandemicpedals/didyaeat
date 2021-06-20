@@ -32,7 +32,7 @@ Eggplant Parmigiana has always been an Italian Classic and a meatless Friday mea
 
 ## Video
 
-{% include video id="lNyRG8kmwPQ" provider="youtube" %}
+{% include video id="j2QwgV5w4TY" provider="youtube" %}
 
 ## Recipe
 
